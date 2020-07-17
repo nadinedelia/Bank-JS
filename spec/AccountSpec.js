@@ -6,8 +6,8 @@ describe("Account", function() {
   });
 
   it("is possible to deposit money", function() {
-    account.deposit(amount);
-    expect(account.balance).toEqual(amount);
+    account.deposit(10);
+    expect(account.balance).toEqual(10);
 
   });
 });
